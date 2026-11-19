@@ -32,7 +32,8 @@ ALLOWED_HOSTS = [
     'localhost', '127.0.0.1', '.codeengine.appdomain.cloud', '*'
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:8000', 'https://*.codeengine.appdomain.cloud'
+    'http://localhost:8000', 'https://*.codeengine.appdomain.cloud',
+    'https://*.onrender.com'
 ]
 
 REST_FRAMEWORK = {
